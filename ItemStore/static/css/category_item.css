@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #0d0d0e;
+}
+
+/* Boxing rhe content of the page */
+.pane {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    border-color: #999999;
+    background-color: #130036
+}
+
+/* Styling the header */
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #e9dddd;
+    font-family: 'georgia', serif;
+    margin: 0;
+    border-bottom: 2px solid #eee;
+}
+
+/* Styling the content */
+.content,
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 10%;
+    margin-right: 5%;
+}
+
+.navigate {
+    height: 50%;
+}
+
+.all-products {
+    width: 80%;
+}
+
+.products {
+    width: 30%;
+}
+
+p {
+    color: #cccccc;
+}
+
+a {
+    color: #b4afae;
+    text-decoration: none;
+}
+
+.add-item {
+    text-align: center;
+    background-color: black;
+}
+
+.add-tag {
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.flash {
+    background: #cee5f5;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    border-radius: 5%;
+}
+
+#signinButton {
+    text-align: center;
+}
