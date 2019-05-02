@@ -354,5 +354,4 @@ def delete_item(item_id):
 
 if __name__ == "__main__":
     app.debug = True
-    app.secret_key = 'super_secret_key'
     app.run()
