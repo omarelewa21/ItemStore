@@ -1,4 +1,3 @@
-#!/bin/sh
 import os
 import sys
 from flask import Flask, render_template, request, redirect
@@ -353,5 +352,4 @@ def delete_item(item_id):
         return render_template('deleteitem.html', item=item)
 
 if __name__ == "__main__":
-    app.debug = True
     app.run()
