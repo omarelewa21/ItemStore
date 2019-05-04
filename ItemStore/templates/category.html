@@ -10,22 +10,6 @@
                 <h1>Mobily Store</h1>
             </div>
             </br>
-            <div class="add-item">
-                <a class="add-tag" href=" {{url_for('newItem', store__id=store__id)}} "> Add New Item </a>
-            </div>
-            </br>
-            <!-- A pop message appears when adding new item -->
-            <div class="flash">
-                {% with messages = get_flashed_messages() %}
-                    {% if messages %}
-                    <ul>
-                    {% for message in messages %}
-                    <li><strong>{{message}}</strong></li>
-                    {% endfor %}
-                    </ul>
-                    {% endif %}
-                {% endwith %}
-            </div>
 
             <div class="content">
                 <div class="navigation">
